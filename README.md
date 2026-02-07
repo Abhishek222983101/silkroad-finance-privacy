@@ -49,6 +49,9 @@ We use Light Protocol to achieve stateless privacy for invoice data.
 3. The hash is inserted as a leaf in a Merkle state tree
 4. Only the Merkle root lives on-chain
 
+---
+
+
 **What this achieves:**
 
 The public ledger shows that a valid invoice exists and has been verified, but reveals nothing about the parties involved or the deal terms. Competitors cannot scrape supplier-client relationships. Auditors can still verify proofs when given selective disclosure keys.
@@ -69,6 +72,17 @@ When settling a compressed invoice, the buyer needs to prove the current state. 
 
 **Real-time Indexing:**
 Helius indexes compressed account updates in under 400ms. This means the frontend reflects new mints and status changes almost instantly, despite the data being off-chain.
+
+---
+
+## 📹 Demo & Walkthrough
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=5LfyOQW3sJ8">
+    <img src="https://img.youtube.com/vi/5LfyOQW3sJ8/0.jpg" alt="Watch the Demo" width="100%">
+  </a>
+  <p><em>Click the banner above to watch the 4-minute technical deep dive.</em></p>
+</div>
 
 ---
 
